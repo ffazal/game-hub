@@ -5,6 +5,7 @@ import { CanceledError } from "axios";
 interface Game {
     id: number;
     name: string;
+    backgrund_image: string;
   }
 
   interface FetchGamesResponse {
